@@ -1,0 +1,67 @@
+.okk {
+  font-size: larger;
+  color: #185adb;
+}
+.div {
+  text-align: center;
+}
+.S,
+.HS {
+  color: azure;
+
+  font-size: 4rem;
+}
+/* .SHDIV {
+  border: 2px solid #be0000;
+  border-radius: 7px;
+  padding: 0-1rem;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  margin: 0 250px;
+} */
+
+.spna {
+  font-size: 70px;
+  color: #185adb;
+  padding: 1em;
+}
+body {
+  background-color: #f7ea00;
+  font-family: "Baloo Tammudu 2", cursive;
+}
+.secret {
+  color: burlywood;
+  /* margin: 5px auto; */
+  font-size: 4rem;
+  justify-content: center;
+  padding: -3rem;
+  margin-top: -4rem;
+  margin-bottom: 0px;
+  padding-bottom: -2rem;
+}
+.inputT {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+}
+.btn {
+  background-color: #9ede73;
+  color: #185adb;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  border-radius: 7px;
+  border: none;
+}
+hr {
+  width: 270px;
+  text-align: center;
+}
+.hrDIV {
+  width: 300px;
+  max-height: 40px;
+  text-align: center;
+  justify-content: center;
+}
