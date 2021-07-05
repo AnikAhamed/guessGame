@@ -1,5 +1,5 @@
 let secret = Math.trunc(Math.random() * 10) + 1;
-console.log(secret);
+// console.log(secret);
 
 // document.querySelector(".secret").textContent = secret;
 let Score = 10;
@@ -8,12 +8,13 @@ const clickFunction = function () {
   if (document.querySelector(".S").textContent === "0") {
     Score = 10;
     document.querySelector(".S").textContent = "10";
+    document.querySelector(".SL").textContent = "your life";
     document.querySelector(".secret").textContent = "🤫";
     document.querySelector("body").style.backgroundColor = "#f7ea00";
     document.querySelector(".btn").value = "Check";
     document.querySelector(".answer").textContent = "put yor number";
     secret = Math.trunc(Math.random() * 10) + 1;
-    console.log(secret);
+    // console.log(secret);
   } else if (!inputV) {
     //EMPTY
     document.querySelector(".answer").textContent = "There is no number";
@@ -53,7 +54,6 @@ const clickFunction = function () {
         document.querySelector(".S").textContent;
     }
     secret = Math.trunc(Math.random() * 10) + 1;
-    console.log(secret);
     document.querySelector(".S").textContent = 10;
     Score = 10;
     document.querySelector("body").style.backgroundColor = "#9ede73";
